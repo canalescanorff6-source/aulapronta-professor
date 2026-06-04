@@ -5,6 +5,7 @@ ENV PIP_NO_CACHE_DIR=1
 ENV FLASK_DEBUG=0
 ENV COOKIE_SECURE=1
 ENV AULAPRONTA_DB=aulapronta.db
+ENV PORT=8080
 
 WORKDIR /app
 
@@ -17,4 +18,4 @@ COPY . /app
 
 RUN chmod +x /app/start.sh
 
-CMD ["/app/start.sh"]
+CMD ["sh", "/app/start.sh"]
