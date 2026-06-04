@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#182842"/>
+      <stop offset="55%" stop-color="#101c2f"/>
+      <stop offset="100%" stop-color="#071018"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d4a84f"/>
+      <stop offset="100%" stop-color="#f6d67c"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="720" rx="64" fill="url(#bg)"/>
+  <circle cx="610" cy="108" r="150" fill="#263955" opacity=".28"/>
+  <circle cx="120" cy="615" r="180" fill="#263955" opacity=".22"/>
+  <rect x="54" y="54" width="612" height="612" rx="54" fill="none" stroke="#344966" stroke-width="6"/>
+  <rect x="94" y="94" width="532" height="532" rx="44" fill="#0d1726" opacity=".42"/>
+  <circle cx="360" cy="310" r="150" fill="#14243b" stroke="#3a526f" stroke-width="5"/>
+  <text x="360" y="345" text-anchor="middle" fill="url(#gold)" font-size="108" font-weight="900" font-family="Segoe UI, Arial">🤝</text>
+  <text x="360" y="512" text-anchor="middle" fill="#ffffff" font-size="46" font-weight="850" font-family="Segoe UI, Arial">Ensino Religioso</text>
+  <text x="360" y="565" text-anchor="middle" fill="#a7b0c2" font-size="22" font-family="Segoe UI, Arial">visual da disciplina</text>
+</svg>
