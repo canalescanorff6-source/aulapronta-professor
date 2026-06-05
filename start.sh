@@ -10,5 +10,4 @@ echo "Iniciando AulaPronta Professor..."
 echo "PORT=$PORT"
 echo "AULAPRONTA_DB=$AULAPRONTA_DB"
 
-# 1 worker para não estourar memória no plano de 256 MB do RunSite.
 exec gunicorn wsgi:app --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 180

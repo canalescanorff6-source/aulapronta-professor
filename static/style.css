@@ -479,3 +479,26 @@ textarea{font-family:Consolas,ui-monospace,monospace}
 .phone-note-v310 b{
   color:var(--gold2);
 }
+
+
+/* v4.1 profissional */
+.professional-note-v410{
+  margin-top:16px;
+  padding:12px 14px;
+  border:1px solid rgba(212,168,79,.22);
+  border-radius:14px;
+  background:rgba(212,168,79,.08);
+  color:#dce7f7;
+  font-size:13px;
+  font-weight:700;
+}
+.professional-trial-v410 b{
+  color:var(--gold2);
+}
+.professional-login-v410 .login-demo-v34{
+  display:none!important;
+}
+.side .brand p{
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
