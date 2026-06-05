@@ -941,4 +941,7 @@ exec(open(os.path.join(os.path.dirname(__file__),'custom_v400_final_ready.py'), 
 
 exec(open(os.path.join(os.path.dirname(__file__),'custom_v410_profissional.py'), encoding='utf-8').read())
 
+
+exec(open(os.path.join(os.path.dirname(__file__),'custom_v420_visual_logo.py'), encoding='utf-8').read())
+
 if __name__=='__main__': app.run(host='0.0.0.0', debug=os.getenv('FLASK_DEBUG','0')=='1', port=int(os.getenv('PORT', 5000)))
